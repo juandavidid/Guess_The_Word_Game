@@ -21,24 +21,89 @@ body {
 }
 
 .container {
-    width: 300px;
-    height: 250px;
-    border: 1px solid, black;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--primary);
+    gap: 16px;
 
 }
 
 .container-Word-To-Guess {
-    border: 1px solid black;
+    border-radius: 4px;
     width: 242px;
     height: 50px;
     background-color: var(--terciary);
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    letter-spacing: 16px;
+
+}
+
+.container-tries-Mistakes {
+    display: flex;
+    gap: 64px;
+
+
 }
 
 input {
+    margin-right: 8px;
     width: 25px;
-    height: 25px;
+    height: 30px;
+    border: 1.5px solid var(--terciary);
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 20px;
+}
+
+input:hover {
+    border: 1.5px solid var(--quinary);
+
+}
+
+span {
+    color: var(--secondary)
+}
+
+.container-btn {
+    width: 350px;
+    height: 100px;
+    padding-top: 32px;
+    padding-left: 86px;
+}
+
+.btn {
+    color: var(--secondary);
+    background-color: var(--cuternary);
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+
+}
+
+.btn-Random {
+    width: 140px;
+    height: 40px;
+}
+
+.btn-Reset {
+    width: 100px;
+    height: 40px;
+}
+
+img {
+    margin-top: 16px;
+}
+
+.iconoCircule {
+    font-size: 6px;
+    color: var(--terciary)
 }

@@ -2,11 +2,12 @@
     margin: 0px;
 }
 
+/*--cuternary: #C951E7;*/
 :root {
     --primary: #171e30;
     --secondary: #F2F5F9;
     --terciary: #4A5567;
-    --cuternary: #C951E7;
+    --cuternary: #d753f8e0;
     --quinary: #672171;
     --senary: #7429C6;
 }
@@ -34,6 +35,7 @@ body {
 
 .container-Word-To-Guess {
     border-radius: 4px;
+    box-shadow: 0px 4px 2px black;
     width: 242px;
     height: 50px;
     background-color: var(--terciary);
@@ -85,6 +87,7 @@ span {
     background-color: var(--cuternary);
     border: none;
     border-radius: 8px;
+    box-shadow: 0px 4px #7b0599fb;
     margin-right: 16px;
 
 }

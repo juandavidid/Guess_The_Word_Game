@@ -135,3 +135,22 @@ img {
     margin-right: 2px;
 
 }
+
+/*----------MEDIAS QUERYS--------------*/
+
+@media(width: 1024px) {
+
+    body {
+        background-position: -196px -64px;
+    }
+
+
+}
+
+@media (width:640px) {
+
+    body {
+        background-position: -376px -64px;
+    }
+
+}

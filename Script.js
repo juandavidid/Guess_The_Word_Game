@@ -29,12 +29,6 @@ const arrayInconsAttempts = Array.from(iconsAttempts);
 console.log(arrayInconsAttempts);
 
 
-
-
-
-
-
-
 let wordGroupuser;
 
 
@@ -113,13 +107,11 @@ let respuesta = arrayInputElements.map((input, position, inputsElement) => {
 
                 console.log("Contando", cont);
 
-                if (cont === 5) {
+                if (cont === 6) {
 
                     console.log("Reinicio el Juego");
 
                     return resetPlayCont();
-
-
                 }
 
 

@@ -1,4 +1,4 @@
-let fruits = ['Pera', 'Fresa', 'Uva'];
+let fruits = ['flower', 'Pera', 'Fresa', 'Uva'];
 
 //let jumbledWord = [];
 
@@ -99,11 +99,7 @@ let respuesta = arrayInputElements.map((input, position, inputsElement) => {
                 console.log("Palabra no Adivinada");
                 cont = cont + 1;
 
-
-
                 iconsAttempts[cont - 1].style.color = senaryColor;
-
-
 
                 console.log("Contando", cont);
 
@@ -113,8 +109,6 @@ let respuesta = arrayInputElements.map((input, position, inputsElement) => {
 
                     return resetPlayCont();
                 }
-
-
 
                 // Mostrar respuesta Incorrectas - Pantalla
                 wordGroupuserArray = wordGroupuser.split("")
